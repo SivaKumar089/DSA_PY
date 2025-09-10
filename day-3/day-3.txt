@@ -1,0 +1,39 @@
+1. Tuples
+
+Ordered, immutable (cannot be changed after creation).
+
+Can store duplicate
+
+
+2. Sets
+
+Unordered, unique elements only.
+
+Very fast for membership tests (uses hashing internally).
+
+No duplicates allowed.
+
+
+
+3. Dictionaries
+
+Key–value pairs.
+
+Keys must be unique and hashable.
+
+Very fast for searching by key (hashing).
+
+
+Hashing Basics (Why Sets & Dicts are Fast)
+
+Hashing = converting data (like a string "apple") into a unique number (hash value).
+
+Sets and Dictionaries use hashing to quickly check membership or retrieve values.
+
+That’s why:
+
+x in set → O(1)
+
+dict[key] → O(1)
+
+x in list → O(n) (slower)
