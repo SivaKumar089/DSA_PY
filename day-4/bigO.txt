@@ -1,0 +1,7 @@
+| Complexity | Example                   |
+| ---------- | ------------------------- |
+| O(1)       | Accessing element in list |
+| O(n)       | Loop through list         |
+| O(n²)      | Nested loops              |
+| O(log n)   | Binary search             |
+| O(n log n) | Merge sort / Quick sort   |
