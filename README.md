@@ -13,3 +13,5 @@ Day 5: Arrays – Problems (search, reverse, rotate).
 Day 6: Strings – Problems (palindrome, anagram check, frequency count).
 
 Day 8: Stack (list, collections.deque, problems like balanced parentheses).
+
+Day 9: Queue (normal & circular queue, deque, problems).
