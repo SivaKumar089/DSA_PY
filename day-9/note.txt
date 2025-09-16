@@ -1,0 +1,7 @@
+Singly Linked List Node structure
+
+Insert (at beginning, at end)
+
+Delete (by value)
+
+Traversal (print list)
