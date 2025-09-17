@@ -21,7 +21,7 @@ class LinkedList:
         new_node = Node(data)
         if not self.head:          # if list empty
             self.head = new_node
-            return
+            return 
         last = self.head
         while last.next:           # traverse till last node
             last = last.next
