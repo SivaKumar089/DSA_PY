@@ -19,3 +19,5 @@ Day 9: Queue (normal & circular queue, deque, problems).
 Day 10: Linked List basics (singly, insert, delete).
 
 Day 11: Linked List problems (reverse LL, detect cycle).
+
+Day 12: Recursion basics (factorial, Fibonacci, sum of digits).
