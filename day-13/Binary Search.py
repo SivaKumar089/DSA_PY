@@ -12,7 +12,7 @@ def binary_search(arr, target):
     
     return -1
 
-# test
+
 arr = [10, 20, 30, 40, 50, 60]
-print(binary_search(arr, 40))  # 3
-print(binary_search(arr, 100)) # -1
+print(binary_search(arr, 40))  
+print(binary_search(arr, 100)) 

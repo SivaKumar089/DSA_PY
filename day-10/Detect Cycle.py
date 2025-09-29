@@ -9,28 +9,25 @@ def has_cycle(head):
     fast = head
 
     while fast and fast.next:
-        slow = slow.next          # move 1 step
-        fast = fast.next.next     # move 2 steps
+        slow = slow.next         
+        fast = fast.next.next    
 
-        if slow == fast:          # cycle detected
+        if slow == fast:          
             return True
     return False
 
 
-# -------------------- Testing --------------------
 
-# Example 1: Linked List without cycle
-head1 = Node(1)
 head1.next = Node(2)
 head1.next.next = Node(3)
 
-print("Cycle in List 1:", has_cycle(head1))  # False
+print("Cycle in List 1:", has_cycle(head1)) 
 
-# Example 2: Linked List with cycle
+
 head2 = Node(1)
 head2.next = Node(2)
 head2.next.next = Node(3)
 head2.next.next.next = Node(4)
-head2.next.next.next.next = head2.next  # cycle created
+head2.next.next.next.next = head2.next  
 
-print("Cycle in List 2:", has_cycle(head2))  # True
+print("Cycle in List 2:", has_cycle(head2)) 

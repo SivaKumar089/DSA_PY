@@ -3,9 +3,9 @@ def reverse_linked_list(head):
     current = head
 
     while current:
-        next_node = current.next   # store next
-        current.next = prev        # reverse link
-        prev = current             # move prev forward
-        current = next_node        # move current forward
+        next_node = current.next  
+        current.next = prev       
+        prev = current             
+        current = next_node       
 
-    return prev   # new head
+    return prev  

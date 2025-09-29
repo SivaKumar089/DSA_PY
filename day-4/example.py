@@ -1,5 +1,5 @@
 def sum_array(arr):
-    total = 0  # only one variable
+    total = 0   
     for x in arr:
         total += x
     return total

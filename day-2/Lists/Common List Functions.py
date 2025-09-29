@@ -1,26 +1,26 @@
 nums = [3, 1, 4, 1, 5, 9]
 
-print(len(nums))          # 6
-print(max(nums))          # 9
-print(min(nums))          # 1
-print(sum(nums))          # 23
+print(len(nums))          
+print(max(nums))          
+print(min(nums))          
+print(sum(nums))          
 
-nums.append(7)            # add at end
-print(nums)               # [3,1,4,1,5,9,7]
+nums.append(7)            
+print(nums)               
 
-nums.insert(2, 99)        # insert at index
+nums.insert(2, 99)        
 print(nums)
 
-nums.remove(1)            # remove first occurrence of 1
+nums.remove(1)            
 print(nums)
 
-nums.pop()                # remove last item
+nums.pop()                
 print(nums)
 
-nums.sort()               # sort ascending
+nums.sort()               
 print(nums)
 
-nums.reverse()            # reverse list
+nums.reverse()            
 print(nums)
 
 
@@ -28,4 +28,4 @@ print(nums)
 
 nums = [1, 2, 2, 3, 4, 4, 5]
 unique = list(set(nums))
-print(unique)  # [1, 2, 3, 4, 5]
+print(unique) 

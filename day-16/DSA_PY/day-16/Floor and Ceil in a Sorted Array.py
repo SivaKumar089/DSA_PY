@@ -6,7 +6,7 @@ def floor_ceil(arr, target):
     while left <= right:
         mid = (left + right) // 2
         if arr[mid] == target:
-            return arr[mid], arr[mid]  # floor = ceil = target
+            return arr[mid], arr[mid]
         elif arr[mid] < target:
             floor = arr[mid]
             left = mid + 1
@@ -16,7 +16,7 @@ def floor_ceil(arr, target):
             
     return floor, ceil
 
-# Example
+
 arr = [1, 3, 5, 6, 8]
 target = 4
-print(floor_ceil(arr, target))  # Output: (3, 5)
+print(floor_ceil(arr, target))  

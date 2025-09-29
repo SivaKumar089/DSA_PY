@@ -1,2 +1,2 @@
 square = lambda x: x * x
-print(square(5))  # 25
+print(square(5)) 
